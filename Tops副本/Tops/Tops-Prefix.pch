@@ -1,0 +1,95 @@
+//
+// Prefix header for all source files of the 'Tops' target in the 'Tops' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#endif
+
+//数据库表名
+#define TABLE_USER @"t_users"
+#define TABLE_INFO @"t_infos"
+
+//通讯录分组名称
+#define KPHONEGROUPNAME @"会议通"
+
+//NSUserDefaults存储的字段列表
+#define DeviceTokenStringKEY @"deviceTokenStringKEY"
+#define DeviceTokenRegisteredKEY @"deviceTokenRegisteredKEY"
+#define BlueToothMACKEY @"BlueToothMACKEY"
+#define IpadBlueToothMAC @"IpadBlueToothMAC"
+#define WifiMACKEY @"WifiMACKEY"
+#define kMYID @"kMyId"
+//存档参数
+#define kArchivingFileKey @"archivingFile"
+#define kArchivingDataKey @"ArchivingDataKey"
+//为了方便，先在工程中的 .pch 文件中定义 字符串常量
+
+#define URL_ @"http://114.112.41.182:8083/hz"
+//#define URL_ @"http://114.112.41.182:8083/hz/"
+
+//注册接口
+#define registerUri @"http://114.112.41.182:8083/hz/register"
+
+//更新接口
+#define updateInfoUri @"http://114.112.41.182:8083/hz/updateuser" //name=&post=&sex=&tel=&fax=&email=&address=&cid=&mac=&title=
+
+//获取公司列表
+#define CompanysListUri @"http://114.112.41.182:8083/hz/companys"
+
+//#define registerUri @"http://192.168.1.221:8080/shuzidao/TopsServlet?method=register"
+
+#define URL_OF_PUSH_NOTIFICATION_SERVER @"http://192.168.1.221:8080/shuzidao/TopsServlet"   
+        //1 . method=setbadge&token=%@  2.保存第一次注册时的token值:method=savetoken&clientid=%@&token=%@
+
+
+//保存token值
+#define URL_OF_TOKEN_EXIST @"http://114.112.41.182:8083/hz/token" //?mac=  & number=
+
+#define URL_OF_BADGE_ZERO @"http://114.112.41.182:8083/hz/remove" //?mac=
+
+#define URL_OF_DELETE_FRIEND @"http://114.112.41.182:8083/hz/deletefrientbyphone"//?id=""&oid=""
+
+//加我的人
+#define URL_OF_ADDME @"http://114.112.41.182:8083/hz/client_mate" //imsi="mac"
+
+//同意或拒绝加我的人
+#define URL_OF_AGREE_OR_REFUSE @"http://114.112.41.182:8083/hz/allow" //mid=""&result=""
+
+//添加附近的人
+#define URL_OF_ADDPEOPLE @"http://114.112.41.182:8083/hz/apply" //mac1="mymac"@mac2="fmac"&state="state"
+
+//查看公司详情
+#define URL_COMPANYDETAIL @"http://114.112.41.182:8083/hz/companybynameaction" //title="companyname"
+
+//获取附近在线的所有人
+#define URL_PEOPLE_OF_ONLINE @"http://114.112.41.182:8083/hz/ValuableMachine_getAllValuableMachine" //mac=
+
+//上传图片路径
+#define UPLOAD_SERVER_URL @"http://114.112.41.182:8083/hz/picupdate"//imsi="" file=文件
+
+//获取好友头像图片接口
+#define URL_OF_DOWN_PHOTO @"http://114.112.41.182:8083/hz/ClientPic/" //imsi值+“.png”
+
+//获取好友详情
+#define URL_OF_DETAILINFO_FRIEND @"http://114.112.41.182:8083/hz/synaloneinfor" //id = "fid"
+
+//获取公告信息
+#define URL_OF_INFOS_BY_INFOSID @"http://114.112.41.182:8083/hz/infor_lookForIphone?id="  //?id=
+
+//获取参加会议的名称
+#define URL_OF_HUIYI_NAME @"http://114.112.41.182:8083/hz/allShows" //id="myId"
+
+//选择即将参加的展会
+#define URL_OF_HUIYI_JION @"http://114.112.41.182:8083/hz/tureshowid" //id="myId"&showid="id"
+
+//账号退出操作
+#define URL_OF_EXIT_LOGIN @"http://114.112.41.182:8083/hz/exit_telExit" //mac="myMac" status="" 0:登录，1:退出

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>itemnames</key>
+	<array>
+		<string>好友管理</string>
+		<string>附近的人</string>
+		<string>加我的人</string>
+		<string>公告栏</string>
+		<string>身份管理</string>
+	</array>
+	<key>itemimages</key>
+	<array>
+		<string>setting_friend.png</string>
+		<string>nearby_pepole.png</string>
+		<string>add_me.png</string>
+		<string>notice_info.png</string>
+		<string>edit_myinfo.png</string>
+	</array>
+</dict>
+</plist>

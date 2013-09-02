@@ -1,0 +1,150 @@
+2013-05-13 17:09:29.792 Tops[4125:907] 个标签的所有值和标签名：(
+
+邮箱:
+        {
+        label = kABWorkLabel;
+        value = "01061190321@163.com";
+    },
+        {
+        label = kABWorkLabel;
+        value = "01061190321@163.com";
+    },
+        {
+        label = "_$!<Work>!$_";
+        value = "ttyggghhj@qq.com";
+    },
+        {
+        label = "_$!<Home>!$_";
+        value = "home@.com";
+    },
+        {
+        label = "_$!<Other>!$_";
+        value = "other@qq.com";
+    }
+)
+2013-05-13 17:09:36.472 Tops[4125:907] 个标签的所有值和标签名：(
+
+网页:
+        {
+        label = kABHomeLabel;
+        value = "www.topworks.cn";
+    },
+        {
+        label = "_$!<HomePage>!$_";
+        value = "dddddd.com";
+    },
+        {
+        label = "_$!<Home>!$_";
+        value = "ghhhhhhh.com";
+    },
+        {
+        label = "_$!<Work>!$_";
+        value = "ffffggg.com";
+    },
+        {
+        label = "_$!<Other>!$_";
+        value = "vbbbbbn.com";
+    },
+        {
+        label = "_$!<Other>!$_";
+        value = "bbbvvv.com";
+    },
+        {
+        label = "_$!<Other>!$_";
+        value = "ggvbnmm.com";
+    }
+)
+2013-05-13 17:09:39.528 Tops[4125:907] 个标签的所有值和标签名：(
+
+电话号：
+        {
+        label = kABPersonPhoneWorkFAXLabel;
+        value = "010-61190321";
+    },
+        {
+        label = kABPersonPhoneWorkFAXLabel;
+        value = "010-61190321";
+    },
+        {
+        label = kABPersonPhoneWorkFAXLabel;
+        value = "010-61190321";
+    },
+        {
+        label = "_$!<Mobile>!$_";
+        value = "11-1111111";
+    },
+        {
+        label = iPhone;
+        value = "444-444444";
+    },
+        {
+        label = "_$!<Home>!$_";
+        value = "555-555555";
+    },
+        {
+        label = "_$!<Work>!$_";
+        value = "555-5555111";
+    },
+        {
+        label = "_$!<Main>!$_";
+        value = "444-44444411";
+    },
+        {
+        label = "_$!<HomeFAX>!$_";
+        value = "666-6666666";
+    },
+        {
+        label = "_$!<WorkFAX>!$_";
+        value = "666-66666777";
+    },
+        {
+        label = "_$!<OtherFAX>!$_";
+        value = "666-3333333";
+    }
+)
+2013-05-13 17:09:41.464 Tops[4125:907] 个标签的所有值和标签名：(
+
+MSN/qq:
+        {
+        label = kABOtherLabel;
+        value =         {
+            username = 724987481;
+        };
+    },
+        {
+        label = "_$!<Work>!$_";
+        value =         {
+            service = QQ;
+            username = vbbbbb;
+        };
+    },
+        {
+        label = "_$!<Other>!$_";
+        value =         {
+            service = Skype;
+            username = "huo3203@hotmail.com";
+        };
+    },
+        {
+        label = "_$!<Other>!$_";
+        value =         {
+            service = MSN;
+            username = "huo3203@hotmail.com";
+        };
+    }
+)
+
+2013-05-15 11:32:24.469 Tops[5598:907] 个标签的所有值和标签名：(
+        {
+        label = "_$!<HomePage>!$_";
+        value =         {
+            City = "\U5317\U4eac";
+            Country = "\U4e2d\U56fd";
+            CountryCode = cn;
+            State = "\U5317\U4eac";
+            Street = "\U6d77\U6dc0\n\U5b89\U5b81\U5e84\U897f\U8def9\U53f7\U9662";
+            ZIP = "";
+        };
+    }
+)
+
